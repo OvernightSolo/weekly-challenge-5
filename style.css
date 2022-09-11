@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Comfortaa", cursive;
   font-size: 16px;
   line-height: 1;
 }
@@ -13,12 +13,18 @@ textarea {
   padding: 10px;
 }
 
+P {
+  margin-top: 1.2rem;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  /* background-color: transparent; */
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  font-weight: 800;
+  background-color: bisque;
 }
 
 .description {
@@ -53,7 +59,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #0b610b;
   color: white;
 }
 
@@ -61,11 +67,17 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #0c5d6f;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+#currentDay {
+  font-weight: 700;
+  padding-top: 2.5rem;
+  font-size: 1.7rem;
 }
