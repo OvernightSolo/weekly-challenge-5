@@ -13,6 +13,10 @@ textarea {
   padding: 10px;
 }
 
+textarea:focus {
+  box-shadow: 0px 0px 20px black;
+}
+
 P {
   margin-top: 1.2rem;
 }
@@ -24,6 +28,8 @@ P {
   border-bottom: 10px solid black;
   font-weight: 800;
   background-color: bisque;
+  padding-top: 30px;
+  padding-bottom: 25px;
 }
 
 .description {
@@ -36,7 +42,7 @@ P {
 }
 
 .row {
-  white-space: pre-wrap;
+  white-space: normal;
   height: 5rem;
   border-top: 1px solid white;
 }
@@ -72,7 +78,6 @@ P {
 
 .saveBtn i:hover {
   font-size: 20px;
-  /* transition: all 0.3s ease-in-out; */
 }
 
 #currentDay {
