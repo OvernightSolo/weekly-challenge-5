@@ -1,6 +1,6 @@
 # Workday Scheduler
 
-https://github.com/OvernightSolo/workday-planner-sterling
+https://overnightsolo.github.io/workday-planner-sterling/
 
 ## Description
 
