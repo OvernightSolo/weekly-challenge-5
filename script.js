@@ -20,3 +20,27 @@ $(document).ready(() => {
     }, 3000);
   });
 });
+
+function updateTime() {
+  // Determine current amount of hours
+  let currentBlock = moment().hours();
+
+  // Iterate over the blocks of time
+  $(".time-block").each(() => {
+    let timeBlock = parseInt($(this).attr("id").split("-")[1]);
+
+    // Determine whether or not we are past the desired time block
+    if (timeBlock < currentBlock) {
+      $(this).addClass(".past");
+    } else if (timeBlock === hoursAmount) {
+      $(this).removeClass("past");
+      $(this).addClass("present");
+    } else {
+      $(this).removeClass("past");
+      $(this).removeClass("present");
+      $(this).addClass("future");
+    }
+  });
+}
+
+updateTime();
